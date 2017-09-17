@@ -3,13 +3,18 @@
     <system>
         <cellranger>
             <cellranger-dir>/opt/Modules/cellranger/1.3.1</cellranger-dir>
+            <bcl2fastq-dir>bcl2fastq/</bcl2fastq-dir>
         </cellranger>
+        <resources>
+          <memory>126</memory>
+          <cpus>16</cpus>
+        </resources>
     </system>
     <experiment>
-        <raw-dir>/path/to/raw/data</raw-dir>
-        <samplesheet-path>/path/to/samplesheet/10xGenomics_SampleSheet.csv</samplesheet-path>
-        <fastq-dir>/path/to/mkfastq/output</fastq-dir>
-        <output-dir>/path/to/output</output-dir>
-        <reference-dir>/path/to/cellranger/reference</reference-dir>
+        <raw-dir>/shares/powell/data/experimental_data/RAW/IPSCRetina_scRNA/170210_700666F_0246_ACAU14ANXX</raw-dir>
+        <samplesheet-path>/shares/powell/data/experimental_data/RAW/IPSCRetina_scRNA/170210_700666F_0246_ACAU14ANXX/10xGenomics_SampleSheet.csv</samplesheet-path>
+        <fastq-dir>/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA</fastq-dir>
+        <output-dir>/shares/powell/data/experimental_data/CLEAN/IPSCRetina_scRNA</output-dir>
+        <reference-dir>/shares/common/groups/Group-Powell/data/reference_data/cellranger-1.3.1/Homo_sapiens_GRC38p7/GRCh38p7/reference-dir>
     </experiment>
 </config>

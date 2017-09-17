@@ -1,0 +1,3 @@
+library_id,molecule_h5
+IPSCRetina_scRNA_Sample1,IPSCRetina_scRNA_Sample1/outs/molecule_info.h5
+IPSCRetina_scRNA_Sample2,IPSCRetina_scRNA_Sample2/outs/molecule_info.h5
