@@ -20,7 +20,7 @@
 module load bcl2fastq
 
 # Run pipeline
-source $PBS_O_WORKDIR/ProcessData.bash
+bash $PBS_O_WORKDIR/ProcessData.bash
 
 ## Unload modules
 module unload bcl2fastq

@@ -6,7 +6,7 @@ RUN_DIR=$(dirname "$0")
 # Load variables from XML
 XML_SCRIPT=$RUN_DIR/ParseXML.bash
 XML_INPUT=$RUN_DIR/project.xml
-source $XML_SCRIPT
+source $XML_SCRIPT $XML_INPUT
 source $RUN_DIR/CheckEnv.bash
 
 # Create fastq and output directories if they don't exist
@@ -14,8 +14,8 @@ mkdir -p $FASTQ_DIR
 mkdir -p $OUTPUT_DIR
 
 # Process BCL to FASTQ with Cell Ranger 1.3.1
-export PATH=${CELLRANGER_PATH}:$PATH
-source ${CELLRANGER_PATH}/sourceme.bash
+export PATH=${CELLRANGER_DIR}:$PATH
+source ${CELLRANGER_DIR}/sourceme.bash
 
 echo "Running Cell Ranger 1.3.1 - mkfastq with INPUT PATH: ${RAW_DIR} and OUTPUT PATH: ${FASTQ_DIR}"
 
