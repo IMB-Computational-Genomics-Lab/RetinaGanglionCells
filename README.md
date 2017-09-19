@@ -13,6 +13,9 @@ Please refer to the [10x Genomics](https://support.10xgenomics.com/single-cell-g
 ### R 3.4.1
 Please refer to the [R website](https://www.r-project.org/) for information about this program.
 
+### ASCEND R Package
+Please install the ASCEND R package from this [repository](https://github.com/IMB-Computational-Genomics-Lab/ASCEND).
+
 ## Instructions
 ### Processing raw data with Cell Ranger 1.3.1
 **THIS STAGE SHOULD BE RUN ON A HIGH-PERFORMANCE COMPUTING ENVIRONMENT**
@@ -22,3 +25,11 @@ Please refer to the [R website](https://www.r-project.org/) for information abou
 4. Run [ProcessData.bash](ProcessData.bash). If you are working on a cluster, you can call this from a cluster submission script. We have included one for PBSPro ([SubmitPBS.pbs](SubmitPBS.pbs)), which you can use as a template for other systems.
 
 ### Processing Cell Ranger output with R
+**THIS STAGE CAN BE RUN ON A DESKTOP**
+Run [ProcessData.R](ProcessData.R).
+
+```bash
+Rscript ProcessData.R IPSCRetina_scRNA_Aggr
+```
+
+This will generate a clean expression matrix in the directory.
