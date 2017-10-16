@@ -26,6 +26,12 @@ checkDir $REFERENCE_DIR
 # Filecheck
 checkFile $RAW_DIR/RunInfo.xml
 checkFile $CELLRANGER_DIR/sourceme.bash
+checkFile $SAMPLE1_R1
+checkFile $SAMPLE1_R2
+checkFile $SAMPLE1_I1
+checkFile $SAMPLE2_R1
+checkFile $SAMPLE2_R2
+checkFile $SAMPLE2_I1
 
 if [ ! ${#MISSING_DIRS[@]} -eq 0 ]; then
   echo "Please check the following directories:"

@@ -7,20 +7,38 @@ RUN_DIR=$(dirname "$0")
 XML_SCRIPT=$RUN_DIR/ParseXML.bash
 XML_INPUT=$RUN_DIR/project.xml
 source $XML_SCRIPT $XML_INPUT
-source $RUN_DIR/CheckEnv.bash
 
-# Create fastq and output directories if they don't exist
+# Create directories
 mkdir -p $FASTQ_DIR
 mkdir -p $OUTPUT_DIR
 
-# Process BCL to FASTQ with Cell Ranger 1.3.1
+# Input Files
+SAMPLE1_R1=$RAW_DIR/iPSC_RGCscRNAseq_Sample1_L005_R1.fastq.gz
+SAMPLE1_R2=$RAW_DIR/iPSC_RGCscRNAseq_Sample1_L005_R2.fastq.gz
+SAMPLE1_I1=$RAW_DIR/iPSC_RGCscRNAseq_Sample1_L005_I1.fastq.gz
+SAMPLE2_R1=$RAW_DIR/iPSC_RGCscRNAseq_Sample2_L005_R1.fastq.gz
+SAMPLE2_R2=$RAW_DIR/iPSC_RGCscRNAseq_Sample2_L005_R2.fastq.gz
+SAMPLE2_I1=$RAW_DIR/iPSC_RGCscRNAseq_Sample2_L005_I1.fastq.gz
+
+# Check before proceeding with pipeline
+source $RUN_DIR/CheckEnv.bash
+
+# Recreate mkfastq output directory
+mkdir -p $FASTQ_DIR/$FLOWCELL_ID/outs/fastq_path/$FLOWCELL_ID/A81E7THY1POS
+mkdir -p $FASTQ_DIR/$FLOWCELL_ID/outs/fastq_path/$FLOWCELL_ID/A81E7THY1NEG
+
+# Move files
+mv $SAMPLE1_R1 $FASTQ_DIR/$FLOWCELL_ID/outs/fastq_path/$FLOWCELL_ID/A81E7THY1POS
+mv $SAMPLE1_R2 $FASTQ_DIR/$FLOWCELL_ID/outs/fastq_path/$FLOWCELL_ID/A81E7THY1POS
+mv $SAMPLE1_I1 $FASTQ_DIR/$FLOWCELL_ID/outs/fastq_path/$FLOWCELL_ID/A81E7THY1POS
+
+mv $SAMPLE2_R1 $FASTQ_DIR/$FLOWCELL_ID/outs/fastq_path/$FLOWCELL_ID/A81E7THY1NEG
+mv $SAMPLE2_R2 $FASTQ_DIR/$FLOWCELL_ID/outs/fastq_path/$FLOWCELL_ID/A81E7THY1NEG
+mv $SAMPLE2_I1 $FASTQ_DIR/$FLOWCELL_ID/outs/fastq_path/$FLOWCELL_ID/A81E7THY1NEG
+
+# Run count with FASTQ with Cell Ranger 1.3.1
 export PATH=${CELLRANGER_DIR}:$PATH
 source ${CELLRANGER_DIR}/sourceme.bash
-
-echo "Running Cell Ranger 1.3.1 - mkfastq with INPUT PATH: ${RAW_DIR} and OUTPUT PATH: ${FASTQ_DIR}"
-
-cd $FASTQ_DIR
-time cellranger mkfastq --run=${RAW_DIR} --csv=${SAMPLESHEET} --use-bases-mask="Y26n*,I8n*,n*,Y98n*" --ignore-dual-index
 
 echo "Running Cell Ranger 1.3.1 - count with INPUT PATH: ${FASTQ_DIR} and OUTPUT PATH: ${OUTPUT_DIR}"
 
