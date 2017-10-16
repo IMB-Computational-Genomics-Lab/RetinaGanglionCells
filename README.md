@@ -19,7 +19,7 @@ Please install the ASCEND R package from this [repository](https://github.com/IM
 ## Instructions
 ### Processing raw data with Cell Ranger 1.3.1
 **THIS STAGE SHOULD BE RUN ON A HIGH-PERFORMANCE COMPUTING ENVIRONMENT**
-1. Download the raw data from GEO. *Confirm final format - will determine where we will start in the pipeline*
+1. Download the raw data from ArrayExpress.
 2. Download the Cell Ranger 1.3.1 reference. You can also prepare your own by following the instructions [here](https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/advanced/references).
 3. Edit [project.xml](project.xml) to suit your computing environment. Make sure your paths do not end in '/'.
 4. Run [ProcessData.bash](ProcessData.bash). If you are working on a cluster, you can call this from a cluster submission script. We have included one for PBSPro ([SubmitPBS.pbs](SubmitPBS.pbs)), which you can use as a template for other systems.
@@ -32,4 +32,4 @@ Run [ProcessData.R](ProcessData.R).
 Rscript ProcessData.R IPSCRetina_scRNA_Aggr
 ```
 
-This will generate a clean expression matrix in the directory.
+This will generate two clean expression matrix in the directory.
