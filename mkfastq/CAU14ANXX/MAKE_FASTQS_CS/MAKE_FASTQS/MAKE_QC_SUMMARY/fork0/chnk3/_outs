@@ -1,0 +1,14 @@
+{
+    "completed": null, 
+    "qc_summary": {
+        "read1": [
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk3/files/output_0_R1.json"
+        ], 
+        "barcode": [
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk3/files/output_0_BC.json"
+        ], 
+        "read2": [
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk3/files/output_0_R2.json"
+        ]
+    }
+}

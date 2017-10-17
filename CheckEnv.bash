@@ -24,7 +24,6 @@ checkDir $CELLRANGER_DIR
 checkDir $REFERENCE_DIR
 
 # Filecheck
-checkFile $RAW_DIR/RunInfo.xml
 checkFile $CELLRANGER_DIR/sourceme.bash
 checkFile $SAMPLE1_R1
 checkFile $SAMPLE1_R2

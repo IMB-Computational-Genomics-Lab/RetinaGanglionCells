@@ -1,0 +1,13 @@
+{
+    "bases_mask": "Y26n*,I8n*,n*,Y98n*",
+    "bcl2fastq1_args": " --mismatches=1",
+    "bcl2fastq2_args": " -r 6 -w 6",
+    "dual_indexed_samplesheet": false,
+    "ignore_dual_index": true,
+    "interop_output_path": null,
+    "max_bcl2fastq_threads": 6,
+    "output_path": null,
+    "run_path": "/shares/powell/data/experimental_data/RAW/IPSCRetina_scRNA/170210_700666F_0246_ACAU14ANXX",
+    "samplesheet_path": "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/PREPARE_SAMPLESHEET/fork0/files/samplesheet.csv",
+    "si_read_type": "I1"
+}

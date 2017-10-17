@@ -16,8 +16,8 @@ FASTQ_DIR=$(xmllint --xpath "string(//fastq-dir)" $INPUT_XML)
 OUTPUT_DIR=$(xmllint --xpath "string(//output-dir)" $INPUT_XML)
 REFERENCE_DIR=$(xmllint --xpath "string(//reference-dir)" $INPUT_XML)
 
-## Get Flowcell ID from RunInfo.xml
-FLOWCELL_ID=$(xmllint --xpath "string(//Flowcell)" $RAW_DIR/RunInfo.xml)
+## Flowcell ID
+FLOWCELL_ID=CAU14ANXX
 
 ## Get system memory and RAM
 NMEM=$(xmllint --xpath "string(//memory)" $INPUT_XML)

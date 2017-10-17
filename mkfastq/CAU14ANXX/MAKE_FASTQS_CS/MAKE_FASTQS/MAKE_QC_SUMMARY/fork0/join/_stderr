@@ -1,0 +1,3 @@
+[stderr]
+/opt/Modules/cellranger/1.3.1/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/lib/python2.7/site-packages/illuminate/base_parser_class.py:94: FutureWarning: sort(....) is deprecated, use sort_index(.....)
+  return idf.sort()

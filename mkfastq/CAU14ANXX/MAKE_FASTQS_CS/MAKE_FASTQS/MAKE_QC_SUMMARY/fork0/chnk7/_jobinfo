@@ -1,0 +1,97 @@
+{
+    "stackvars_flag": "disable", 
+    "name": "ID.CAU14ANXX.MAKE_FASTQS_CS.MAKE_FASTQS.MAKE_QC_SUMMARY.fork0.chnk7", 
+    "python": {
+        "binpath": "/opt/Modules/cellranger/1.3.1/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/bin/python", 
+        "version": "2.7.12 |Anaconda 2.2.0 (64-bit)| (default, Jul  2 2016, 17:42:40) \n[GCC 4.4.7 20120313 (Red Hat 4.4.7-1)]"
+    }, 
+    "monitor_flag": "disable", 
+    "pid": 106916, 
+    "cwd": "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk7/files", 
+    "wallclock": {
+        "start": "2017-09-18 09:27:55", 
+        "end": "2017-09-18 09:31:27", 
+        "duration_seconds": 211.9772868156433
+    }, 
+    "host": "delta005", 
+    "version": {
+        "martian": "1.3.1 (2.1.2)", 
+        "pipelines": "1.3.1"
+    }, 
+    "threads": 1, 
+    "memGB": 6, 
+    "invocation": {
+        "incpaths": [
+            "make_fastqs_cs.mro"
+        ], 
+        "args": {
+            "bcl2fastq2_args": " -r 6 -w 6", 
+            "output_path": null, 
+            "max_bcl2fastq_threads": 6, 
+            "barcode_whitelist": "737K-august-2016", 
+            "lanes": null, 
+            "software_version": "cellranger 1.3.1", 
+            "bc_start_index": 0, 
+            "umi_length": 10, 
+            "bc_length": 16, 
+            "bc_read_type": "R1", 
+            "project": "CAU14ANXX", 
+            "delete_undetermined": false, 
+            "umi_read_type": "R1", 
+            "interop_output_path": null, 
+            "umi_start_index": 16, 
+            "bcl2fastq1_args": " --mismatches=1", 
+            "bases_mask": "Y26n*,I8n*,n*,Y98n*", 
+            "ignore_dual_index": true, 
+            "specs": [
+                {
+                    "csv": "/shares/powell/data/experimental_data/RAW/IPSCRetina_scRNA/170210_700666F_0246_ACAU14ANXX/10xGenomics_SampleSheet.csv"
+                }
+            ], 
+            "si_read_type": "I1", 
+            "run_path": "/shares/powell/data/experimental_data/RAW/IPSCRetina_scRNA/170210_700666F_0246_ACAU14ANXX"
+        }, 
+        "call": "MAKE_FASTQS_CS", 
+        "sweepargs": []
+    }, 
+    "profile_mode": "disable", 
+    "type": "local", 
+    "rusage": {
+        "self": {
+            "ru_msgrcv": 0, 
+            "ru_utime": 1.748734, 
+            "ru_majflt": 0, 
+            "ru_isrss": 0, 
+            "ru_nsignals": 0, 
+            "ru_msgsnd": 0, 
+            "ru_idrss": 0, 
+            "ru_stime": 0.874867, 
+            "ru_inblock": 0, 
+            "ru_minflt": 59143, 
+            "ru_nivcsw": 396, 
+            "ru_maxrss": 75408, 
+            "ru_nvcsw": 18492, 
+            "ru_nswap": 0, 
+            "ru_oublock": 96, 
+            "ru_ixrss": 0
+        }, 
+        "children": {
+            "ru_msgrcv": 0, 
+            "ru_utime": 263.57693, 
+            "ru_majflt": 7, 
+            "ru_isrss": 0, 
+            "ru_nsignals": 0, 
+            "ru_msgsnd": 0, 
+            "ru_idrss": 0, 
+            "ru_stime": 10.564392999999999, 
+            "ru_inblock": 0, 
+            "ru_minflt": 59401, 
+            "ru_nivcsw": 2375, 
+            "ru_maxrss": 246276, 
+            "ru_nvcsw": 1560102, 
+            "ru_nswap": 0, 
+            "ru_oublock": 9088, 
+            "ru_ixrss": 0
+        }
+    }
+}

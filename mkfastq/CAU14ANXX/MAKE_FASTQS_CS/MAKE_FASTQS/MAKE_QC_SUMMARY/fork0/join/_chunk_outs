@@ -1,0 +1,114 @@
+[
+    {
+        "completed": null,
+        "qc_summary": {
+            "barcode": [
+                "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk0/files/output_0_BC.json"
+            ],
+            "read1": [
+                "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk0/files/output_0_R1.json"
+            ],
+            "read2": [
+                "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk0/files/output_0_R2.json"
+            ]
+        }
+    },
+    {
+        "completed": null,
+        "qc_summary": {
+            "barcode": [
+                "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk1/files/output_0_BC.json"
+            ],
+            "read1": [
+                "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk1/files/output_0_R1.json"
+            ],
+            "read2": [
+                "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk1/files/output_0_R2.json"
+            ]
+        }
+    },
+    {
+        "completed": null,
+        "qc_summary": {
+            "barcode": [
+                "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk2/files/output_0_BC.json"
+            ],
+            "read1": [
+                "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk2/files/output_0_R1.json"
+            ],
+            "read2": [
+                "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk2/files/output_0_R2.json"
+            ]
+        }
+    },
+    {
+        "completed": null,
+        "qc_summary": {
+            "barcode": [
+                "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk3/files/output_0_BC.json"
+            ],
+            "read1": [
+                "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk3/files/output_0_R1.json"
+            ],
+            "read2": [
+                "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk3/files/output_0_R2.json"
+            ]
+        }
+    },
+    {
+        "completed": null,
+        "qc_summary": {
+            "barcode": [
+                "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk4/files/output_0_BC.json"
+            ],
+            "read1": [
+                "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk4/files/output_0_R1.json"
+            ],
+            "read2": [
+                "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk4/files/output_0_R2.json"
+            ]
+        }
+    },
+    {
+        "completed": null,
+        "qc_summary": {
+            "barcode": [
+                "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk5/files/output_0_BC.json"
+            ],
+            "read1": [
+                "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk5/files/output_0_R1.json"
+            ],
+            "read2": [
+                "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk5/files/output_0_R2.json"
+            ]
+        }
+    },
+    {
+        "completed": null,
+        "qc_summary": {
+            "barcode": [
+                "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk6/files/output_0_BC.json"
+            ],
+            "read1": [
+                "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk6/files/output_0_R1.json"
+            ],
+            "read2": [
+                "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk6/files/output_0_R2.json"
+            ]
+        }
+    },
+    {
+        "completed": null,
+        "qc_summary": {
+            "barcode": [
+                "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk7/files/output_0_BC.json"
+            ],
+            "read1": [
+                "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk7/files/output_0_R1.json"
+            ],
+            "read2": [
+                "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk7/files/output_0_R2.json"
+            ]
+        }
+    }
+]

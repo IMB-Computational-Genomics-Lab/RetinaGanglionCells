@@ -1,0 +1,15 @@
+@include "make_fastqs_cs.mro"
+
+call BCL2FASTQ_WITH_SAMPLESHEET(
+    run_path = "/shares/powell/data/experimental_data/RAW/IPSCRetina_scRNA/170210_700666F_0246_ACAU14ANXX",
+    output_path = null,
+    interop_output_path = null,
+    samplesheet_path = "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/PREPARE_SAMPLESHEET/fork0/files/samplesheet.csv",
+    bases_mask = "Y26n*,I8n*,n*,Y98n*",
+    si_read_type = "I1",
+    bcl2fastq1_args = " --mismatches=1",
+    bcl2fastq2_args = " -r 6 -w 6",
+    max_bcl2fastq_threads = 6,
+    dual_indexed_samplesheet = false,
+    ignore_dual_index = true,
+)

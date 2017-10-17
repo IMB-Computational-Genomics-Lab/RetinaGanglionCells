@@ -1,0 +1,23 @@
+@include "make_fastqs_cs.mro"
+
+call MAKE_FASTQS_PREFLIGHT_LOCAL(
+    run_path = "/shares/powell/data/experimental_data/RAW/IPSCRetina_scRNA/170210_700666F_0246_ACAU14ANXX",
+    check_executables = false,
+    lanes = null,
+    specs = [
+        {
+            "csv": "/shares/powell/data/experimental_data/RAW/IPSCRetina_scRNA/170210_700666F_0246_ACAU14ANXX/10xGenomics_SampleSheet.csv"
+        }
+    ],
+    bcl2fastq2_args = " -r 6 -w 6",
+    barcode_whitelist = "737K-august-2016",
+    bc_read_type = "R1",
+    bc_start_index = 0,
+    bc_length = 16,
+    si_read_type = "I1",
+    umi_read_type = "R1",
+    umi_start_index = 16,
+    umi_length = 10,
+    bases_mask = "Y26n*,I8n*,n*,Y98n*",
+    ignore_dual_index = true,
+)

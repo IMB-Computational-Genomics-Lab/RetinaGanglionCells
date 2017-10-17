@@ -1,0 +1,24 @@
+@include "make_fastqs_cs.mro"
+
+call MAKE_QC_SUMMARY(
+    run_path = "/shares/powell/data/experimental_data/RAW/IPSCRetina_scRNA/170210_700666F_0246_ACAU14ANXX",
+    fastq_path = "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path",
+    interop_path = "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/interop_path",
+    barcode_whitelist = "737K-august-2016",
+    bc_read_type = "R1",
+    bc_start_index = 0,
+    bc_length = 16,
+    si_read_type = "I1",
+    umi_read_type = "R1",
+    umi_start_index = 16,
+    umi_length = 10,
+    rc_i2_read = false,
+    file_read_types_map = {
+        "I1": "I1",
+        "R1": "R1",
+        "R2": "R2"
+    },
+    software_version = "cellranger 1.3.1",
+    bcl2fastq_version = "2.18.0.12",
+    bcl2fastq_args = "bcl2fastq --minimum-trimmed-read-length 8 --mask-short-adapter-reads 8 --create-fastq-for-index-reads --ignore-missing-positions --ignore-missing-filter --ignore-missing-bcls --use-bases-mask=Y26n*,I8n*,n*,Y98n* -R /shares/powell/data/experimental_data/RAW/IPSCRetina_scRNA/170210_700666F_0246_ACAU14ANXX --output-dir=/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/chnk0/files/fastq_path --interop-dir=/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/chnk0/files/interop_path --sample-sheet=/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/PREPARE_SAMPLESHEET/fork0/files/samplesheet.csv -r 6 -w 6",
+)

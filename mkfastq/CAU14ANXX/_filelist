@@ -1,0 +1,40 @@
+144115206178472086    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:22 CAU14ANXX/MAKE_FASTQS_CS/fork0/split/files
+144115206178472084    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:22 CAU14ANXX/MAKE_FASTQS_CS/fork0/files
+144115206178472088    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:22 CAU14ANXX/MAKE_FASTQS_CS/fork0/join/files
+144115206178472113    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:22 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_FASTQS_PREFLIGHT_LOCAL/fork0/split/files
+144115206178472111    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:22 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_FASTQS_PREFLIGHT_LOCAL/fork0/files
+144115206178472115    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:22 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_FASTQS_PREFLIGHT_LOCAL/fork0/join/files
+144115206178474283    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:34 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MERGE_FASTQS_BY_LANE_SAMPLE/fork0/split/files
+144115206178474329    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:34 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MERGE_FASTQS_BY_LANE_SAMPLE/fork0/chnk0/files
+144115206178474331    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:34 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MERGE_FASTQS_BY_LANE_SAMPLE/fork0/chnk1/files
+144115206178474281    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:34 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MERGE_FASTQS_BY_LANE_SAMPLE/fork0/files
+144115206178474285    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:34 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MERGE_FASTQS_BY_LANE_SAMPLE/fork0/join/files
+144115206178474291    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:34 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/fork0/split/files
+144115206178474289    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:34 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/fork0/files
+144115206178474293    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:34 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/fork0/join/files
+144115206178472104    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:22 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_FASTQS_PREFLIGHT/fork0/split/files
+144115206178472102    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:22 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_FASTQS_PREFLIGHT/fork0/files
+144115206178472106    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:22 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_FASTQS_PREFLIGHT/fork0/join/files
+144115206178474051    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:34 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk6/files
+144115206178474017    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:27 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/split/files
+144115206178474039    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:34 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk0/files
+144115206178474045    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:34 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk3/files
+144115206178474041    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:34 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk1/files
+144115206178474049    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:34 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk5/files
+144115206178474047    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:34 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk4/files
+144115206178474015    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:34 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/files
+144115206178474438    0 lrwxrwxrwx   1 a.senabouth Group-Powell       35 Sep 18 09:34 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/files/qc_summary.json -> ../../../../../outs/qc_summary.json
+144115206178474053    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:34 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk7/files
+144115206178474019    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:27 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/join/files
+144115206178474043    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:34 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/MAKE_QC_SUMMARY/fork0/chnk2/files
+144115206178472232    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:23 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/split/files
+144115206178472254    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:27 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/chnk0/files
+144115206178472230    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:34 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files
+144115206178474439    0 lrwxrwxrwx   1 a.senabouth Group-Powell       30 Sep 18 09:34 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path -> ../../../../../outs/fastq_path
+144115206178474440    0 lrwxrwxrwx   1 a.senabouth Group-Powell       32 Sep 18 09:34 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/interop_path -> ../../../../../outs/interop_path
+144115206178472234    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:23 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/join/files
+144115206178472189    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:23 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/PREPARE_SAMPLESHEET/fork0/split/files
+144115206178472187    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:34 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/PREPARE_SAMPLESHEET/fork0/files
+144115206178472213    4 -rw-r--r--   1 a.senabouth Group-Powell      630 Sep 18 09:23 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/PREPARE_SAMPLESHEET/fork0/files/samplesheet.csv
+144115206178474441    0 lrwxrwxrwx   1 a.senabouth Group-Powell       41 Sep 18 09:34 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/PREPARE_SAMPLESHEET/fork0/files/input_samplesheet.csv -> ../../../../../outs/input_samplesheet.csv
+144115206178472191    4 drwxr-sr-x   2 a.senabouth Group-Powell     4096 Sep 18 09:23 CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/PREPARE_SAMPLESHEET/fork0/join/files

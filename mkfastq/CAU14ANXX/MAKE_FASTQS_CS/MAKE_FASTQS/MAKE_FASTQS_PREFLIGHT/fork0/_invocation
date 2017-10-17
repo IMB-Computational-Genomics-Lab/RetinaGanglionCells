@@ -1,0 +1,10 @@
+@include "make_fastqs_cs.mro"
+
+call MAKE_FASTQS_PREFLIGHT(
+    run_path = "/shares/powell/data/experimental_data/RAW/IPSCRetina_scRNA/170210_700666F_0246_ACAU14ANXX",
+    output_path = null,
+    interop_output_path = null,
+    barcode_whitelist = "737K-august-2016",
+    check_executables = true,
+    max_bcl2fastq_threads = 6,
+)

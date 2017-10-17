@@ -1,0 +1,23 @@
+{
+    "__mem_gb": 6,
+    "__threads": 1,
+    "barcode_whitelist": "737K-august-2016",
+    "bases_mask": "Y26n*,I8n*,n*,Y98n*",
+    "bc_length": 16,
+    "bc_read_type": "R1",
+    "bc_start_index": 0,
+    "bcl2fastq2_args": " -r 6 -w 6",
+    "check_executables": false,
+    "ignore_dual_index": true,
+    "lanes": null,
+    "run_path": "/shares/powell/data/experimental_data/RAW/IPSCRetina_scRNA/170210_700666F_0246_ACAU14ANXX",
+    "si_read_type": "I1",
+    "specs": [
+        {
+            "csv": "/shares/powell/data/experimental_data/RAW/IPSCRetina_scRNA/170210_700666F_0246_ACAU14ANXX/10xGenomics_SampleSheet.csv"
+        }
+    ],
+    "umi_length": 10,
+    "umi_read_type": "R1",
+    "umi_start_index": 16
+}

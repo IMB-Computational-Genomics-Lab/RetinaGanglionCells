@@ -1,0 +1,14 @@
+@include "make_fastqs_cs.mro"
+
+call PREPARE_SAMPLESHEET(
+    run_path = "/shares/powell/data/experimental_data/RAW/IPSCRetina_scRNA/170210_700666F_0246_ACAU14ANXX",
+    specs = [
+        {
+            "csv": "/shares/powell/data/experimental_data/RAW/IPSCRetina_scRNA/170210_700666F_0246_ACAU14ANXX/10xGenomics_SampleSheet.csv"
+        }
+    ],
+    project = "CAU14ANXX",
+    bc_read_type = "R1",
+    bc_length = 16,
+    si_read_type = "I1",
+)

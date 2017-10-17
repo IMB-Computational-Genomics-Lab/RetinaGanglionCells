@@ -1,0 +1,4 @@
+2017-09-18 09:23:21 [time] __start__
+2017-09-18 09:23:24 [info] Read Info: [{'read_length': 126, 'index_read': False, 'original_read_name': 'R1', 'read_name': 'R1'}, {'read_length': 8, 'index_read': True, 'original_read_name': 'R2', 'read_name': 'I1'}, {'read_length': 8, 'index_read': True, 'original_read_name': 'R3', 'read_name': 'I2'}, {'read_length': 126, 'index_read': False, 'original_read_name': 'R4', 'read_name': 'R2'}]
+2017-09-18 09:23:24 [info] Flowcell ID: CAU14ANXX
+2017-09-18 09:23:24 [time] __end__

@@ -1,0 +1,46 @@
+[
+    {
+        "__mem_gb": 6,
+        "__threads": 1,
+        "input_files": [
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path/CAU14ANXX/A81E7THY1NEG_1/A81E7THY1NEG_S5_L005_I1_001.fastq.gz",
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path/CAU14ANXX/A81E7THY1NEG_1/A81E7THY1NEG_S5_L005_R1_001.fastq.gz",
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path/CAU14ANXX/A81E7THY1NEG_1/A81E7THY1NEG_S5_L005_R2_001.fastq.gz",
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path/CAU14ANXX/A81E7THY1NEG_2/A81E7THY1NEG_S6_L005_I1_001.fastq.gz",
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path/CAU14ANXX/A81E7THY1NEG_2/A81E7THY1NEG_S6_L005_R1_001.fastq.gz",
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path/CAU14ANXX/A81E7THY1NEG_2/A81E7THY1NEG_S6_L005_R2_001.fastq.gz",
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path/CAU14ANXX/A81E7THY1NEG_3/A81E7THY1NEG_S7_L005_I1_001.fastq.gz",
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path/CAU14ANXX/A81E7THY1NEG_3/A81E7THY1NEG_S7_L005_R1_001.fastq.gz",
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path/CAU14ANXX/A81E7THY1NEG_3/A81E7THY1NEG_S7_L005_R2_001.fastq.gz",
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path/CAU14ANXX/A81E7THY1NEG_4/A81E7THY1NEG_S8_L005_I1_001.fastq.gz",
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path/CAU14ANXX/A81E7THY1NEG_4/A81E7THY1NEG_S8_L005_R1_001.fastq.gz",
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path/CAU14ANXX/A81E7THY1NEG_4/A81E7THY1NEG_S8_L005_R2_001.fastq.gz"
+        ],
+        "lane": 5,
+        "output_snum": "2",
+        "project": "CAU14ANXX",
+        "sample_id": "A81E7THY1NEG"
+    },
+    {
+        "__mem_gb": 6,
+        "__threads": 1,
+        "input_files": [
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path/CAU14ANXX/A81E7THY1POS_1/A81E7THY1POS_S1_L005_I1_001.fastq.gz",
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path/CAU14ANXX/A81E7THY1POS_1/A81E7THY1POS_S1_L005_R1_001.fastq.gz",
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path/CAU14ANXX/A81E7THY1POS_1/A81E7THY1POS_S1_L005_R2_001.fastq.gz",
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path/CAU14ANXX/A81E7THY1POS_2/A81E7THY1POS_S2_L005_I1_001.fastq.gz",
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path/CAU14ANXX/A81E7THY1POS_2/A81E7THY1POS_S2_L005_R1_001.fastq.gz",
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path/CAU14ANXX/A81E7THY1POS_2/A81E7THY1POS_S2_L005_R2_001.fastq.gz",
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path/CAU14ANXX/A81E7THY1POS_3/A81E7THY1POS_S3_L005_I1_001.fastq.gz",
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path/CAU14ANXX/A81E7THY1POS_3/A81E7THY1POS_S3_L005_R1_001.fastq.gz",
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path/CAU14ANXX/A81E7THY1POS_3/A81E7THY1POS_S3_L005_R2_001.fastq.gz",
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path/CAU14ANXX/A81E7THY1POS_4/A81E7THY1POS_S4_L005_I1_001.fastq.gz",
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path/CAU14ANXX/A81E7THY1POS_4/A81E7THY1POS_S4_L005_R1_001.fastq.gz",
+            "/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/files/fastq_path/CAU14ANXX/A81E7THY1POS_4/A81E7THY1POS_S4_L005_R2_001.fastq.gz"
+        ],
+        "lane": 5,
+        "output_snum": "1",
+        "project": "CAU14ANXX",
+        "sample_id": "A81E7THY1POS"
+    }
+]

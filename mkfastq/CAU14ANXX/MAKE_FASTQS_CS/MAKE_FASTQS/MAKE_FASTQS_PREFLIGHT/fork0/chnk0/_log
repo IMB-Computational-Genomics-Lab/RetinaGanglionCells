@@ -1,0 +1,5 @@
+2017-09-18 09:22:57 [time] __start__
+2017-09-18 09:22:58 [info] RTA Version: 1.18.66.3
+2017-09-18 09:22:58 [info] BCL Params: {'ApplicationName': 'HiSeq Control Software', 'ApplicationVersion': '2.2.68'}
+2017-09-18 09:22:59 [info] Running bcl2fastq mode: NEW.  Version: 2.18.0.12
+2017-09-18 09:22:59 [time] __end__

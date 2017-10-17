@@ -1,0 +1,11 @@
+2017-09-18 09:23:39 [time] __start__
+2017-09-18 09:23:42 [info] Running bcl2fastq on run: /shares/powell/data/experimental_data/RAW/IPSCRetina_scRNA/170210_700666F_0246_ACAU14ANXX
+2017-09-18 09:23:42 [info] FASTQ output dir: /shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/chnk0/files/fastq_path
+2017-09-18 09:23:42 [info] Read Info: [{'read_length': 126, 'index_read': False, 'original_read_name': 'R1', 'read_name': 'R1'}, {'read_length': 8, 'index_read': True, 'original_read_name': 'R2', 'read_name': 'I1'}, {'read_length': 8, 'index_read': True, 'original_read_name': 'R3', 'read_name': 'I2'}, {'read_length': 126, 'index_read': False, 'original_read_name': 'R4', 'read_name': 'R2'}]
+2017-09-18 09:23:42 [info] Flowcell ID: CAU14ANXX
+2017-09-18 09:23:42 [info] BCL folder RTA Version: 1.18.66.3
+2017-09-18 09:23:42 [info] BCL params: {'ApplicationName': 'HiSeq Control Software', 'ApplicationVersion': '2.2.68'}
+2017-09-18 09:23:42 [info] Using bcl2fastq version: 2.18.0.12
+2017-09-18 09:23:42 [info] RC'ing i2 read: False
+2017-09-18 09:23:42 [info] Running bcl2fastq2: bcl2fastq --minimum-trimmed-read-length 8 --mask-short-adapter-reads 8 --create-fastq-for-index-reads --ignore-missing-positions --ignore-missing-filter --ignore-missing-bcls --use-bases-mask=Y26n*,I8n*,n*,Y98n* -R /shares/powell/data/experimental_data/RAW/IPSCRetina_scRNA/170210_700666F_0246_ACAU14ANXX --output-dir=/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/chnk0/files/fastq_path --interop-dir=/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/BCL2FASTQ_WITH_SAMPLESHEET/fork0/chnk0/files/interop_path --sample-sheet=/shares/powell/data/experimental_data/PROCESSING/IPSCRetina_scRNA/CAU14ANXX/MAKE_FASTQS_CS/MAKE_FASTQS/PREPARE_SAMPLESHEET/fork0/files/samplesheet.csv -r 6 -w 6
+2017-09-18 09:27:38 [time] __end__
