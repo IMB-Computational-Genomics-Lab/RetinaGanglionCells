@@ -1,7 +1,7 @@
 # Retina ganglion cells dataset
 Maciej Daniszewski, Anne Senabouth, Duncan E. Crombie, Quan Nguyen, Samuel Lukowski, Tejal Kulkani,  Donald J Zack,  Alice Pébay, Joseph E. Powell and Alex W. Hewitt
 
-Public repository for code associated with the processing of single cell retina ganglion cells.
+Public repository for code associated with the processing of single cell retina ganglion cells, from the publication [Single Cell RNA Sequencing of stem cell-derived retinal ganglion cells.](https://www.biorxiv.org/content/early/2017/09/22/191395)
 
 ## Raw Data
 [E-MTAB-6108 - Single cell RNA sequencing of stem cell-derived retinal ganglion cells](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6108/files/)
@@ -32,4 +32,4 @@ Run [ProcessData.R](ProcessData.R), where the second argument points to the loca
 Rscript ProcessData.R RetinaGanglionCells
 ```
 
-This will generate two clean expression matrix in the directory.
+This will generate two clean expression matrices in the directory.
