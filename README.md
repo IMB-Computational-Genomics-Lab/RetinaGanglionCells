@@ -33,3 +33,22 @@ Rscript ProcessData.R RetinaGanglionCells
 ```
 
 This will generate two clean expression matrices in the directory.
+
+## Exploring this dataset with 'ascend'
+You can explore the clean data available on ArrayExpress by loading the expression matrices as follows:
+
+```
+# Load the expression matrices into R
+sample1.matrix <- read.csv("iPSC_RGscRNASeq_Sample1.tsv", sep = "\t")
+sample2.matrix <- read.csv("iPSC_RGscRNASeq_Sample2.tsv", sep = "\t")
+
+# Connect the two matrices together using dplyr and set the rownames
+library(dplyr)
+expression.matrix <- full_join(sample1.matrix, sample2.matrix, by = "X")
+rownames(expression.matrix) <- expression.matrix[ ,1]
+expression.matrix <- expression.matrix[ ,2:ncol(expression.matrix)]
+
+# Create an EMSet for use with ascend
+em.set <- NewEMSet(ExpressionMatrix = expression.matrix)
+
+```
