@@ -13,9 +13,6 @@ Please refer to the [10x Genomics](https://support.10xgenomics.com/single-cell-g
 ### R 3.4.2
 Please refer to the [R website](https://www.r-project.org/) for information about this program.
 
-### ASCEND R Package
-Please install the ASCEND R package from this [repository](https://github.com/IMB-Computational-Genomics-Lab/ASCEND).
-
 ## Instructions
 ### Processing raw data with Cell Ranger 1.3.1
 **THIS STAGE SHOULD BE RUN ON A HIGH-PERFORMANCE COMPUTING ENVIRONMENT**
